@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+
+  background-color: #d5d5d5;
+}
+
+.genre {
+  position: relative;
+  width: 300px;
+  height: 100%;
+}
+
+.photo {
+  width: 300px;
+}
+
+.caption {
+  position: absolute;
+  bottom: 2%;
+
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 1.5em;
+}
+
+h2,
+.genre {
+  margin-top: 20px;
+  margin-left: 15px;
+}
